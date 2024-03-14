@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+    color: rgb(194, 124, 33);
+}
+
+
+/* styles.css */
+
+/* Add a custom scrollbar style */
+::-webkit-scrollbar {
+    
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #4a5568; /* Set the color of the scrollbar handle */
+    border-radius: 4px; /* Optional: Round the corners of the handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #2d3748; /* Change the color on hover */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(21 94 117); /* Set the color of the scrollbar track */
+    border-radius: 4px; /* Optional: Round the corners of the track */
+  }
+  
+  /* Handle on track */
+  ::-webkit-scrollbar-track:hover {
+    background: #a0aec0; /* Change the color on hover */
+  }
+  
